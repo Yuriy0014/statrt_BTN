@@ -8,6 +8,18 @@
     <title>START</title>
 </head>
 <body>
-    <button class='glowing-btn'><span class='glowing-txt'>ПО<span class='faulty-letter'>И</span>ГРАЕМ?</span></button>
+    <button id="start-btn" class='glowing-btn'><span class='glowing-txt'>ПО<span class='faulty-letter'>И</span>ГРАЕМ?</span></button>
+
+
+    <script>
+        // Находим кнопку по её ID
+        const button = document.getElementById('start-btn');
+    
+        // Добавляем обработчик события на клик по кнопке
+        button.addEventListener('click', function () {
+          // Открываем другую страницу, замените 'url-вашей-страницы' на фактический URL
+          window.location.href = "C:\Users\YurL2023\Desktop\funny_hr\press.html";
+        });
+      </script>
 </body>
 </html>
